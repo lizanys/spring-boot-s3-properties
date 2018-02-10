@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.PropertySource;
 
 @SpringBootApplication
-@PropertySource("${properties.location}")
+@PropertySource("${s3-properties.location}")
 @EnableConfigurationProperties(S3Properties.class)
 public class S3PropertiesApplication {
 
