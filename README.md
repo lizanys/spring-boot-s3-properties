@@ -2,7 +2,7 @@
 Demo project for reading properties from S3 in a Spring Boot application
 
 ## Setup
-1. Upload `s3-properties.properties` to an S3 bucket of your choice.
+1. Upload `s3.properties` to an S3 bucket of your choice.
 2. Enter values for the following properties in `src/main/resources/application.properties`:
     - `cloud.aws.credentials.accessKey`: AWS access key ID
     - `cloud.aws.credentials.secretKey`: AWS secret access key
